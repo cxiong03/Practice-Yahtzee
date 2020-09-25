@@ -24,4 +24,5 @@ public class Hand {
     public void roll(Random rand, int choice) {
         dice.get(choice).roll(rand);
     }
+
 }

@@ -1,7 +1,7 @@
 package com.codewithchang;
 
 import Yahtzee.Die;
-
+import Yahtzee.Console;
 import java.util.Random;
 
 public class Main {
