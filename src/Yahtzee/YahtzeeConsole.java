@@ -8,6 +8,6 @@ public class YahtzeeConsole extends Console{
     }
 
     static public void displayHand(List<Integer> dice) {
-        System.out.println();
+        System.out.println("--------");
     }
 }
