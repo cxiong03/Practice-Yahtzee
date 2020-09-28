@@ -25,4 +25,13 @@ public class Hand {
         dice.get(choice).roll(rand);
     }
 
+    public void roll(Random rand, List<Integer> choices) {
+        for (int choice : choices) {
+            roll(rand, choice);
+        }
+    }
+
+    public List<Die> getDice() {
+        return dice;
+    }
 }
